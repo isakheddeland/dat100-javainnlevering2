@@ -151,7 +151,12 @@ public class Tabeller {
         //f
         int[] tabellF1 = {1, 2, 3, 4, 5, 6, 7};
         int[] tabellF2 = reverser(tabellF1);
-        System.out.println(tabellF2);
+
+        for (int i = 0; i < tabellF2.length; i++){
+            System.out.print(tabellF2[i] + " ");
+        }
+
+
 
         //g
         int[] tabellG = {1, 2, 3, 4, 5, 6, 7};  //tester
